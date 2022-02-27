@@ -17,11 +17,12 @@ endShape();
 ```
 <img width="292" alt="image" src="https://user-images.githubusercontent.com/36117924/155884431-e5c8dc33-aa49-4fdf-88fa-9d25d095b7a1.png">
 
+You could draw 3 planes from the same starting anchor point, for example FRONT, RIGHT and TOP in this example:
 
-<img width="227" alt="image" src="https://user-images.githubusercontent.com/36117924/155884268-96578eb9-670f-45af-b507-5aa488f4398e.png">
+<img width="215" alt="image" src="https://user-images.githubusercontent.com/36117924/155884672-df6e76ec-32fa-48cf-8470-d5cad8b53ebe.png">
 
-
-I've solved this by drawing 3 planes from one single anchor point, and another opposite from that point. So a front + left + bottom first, and then a back + right + top. It also works with different textures.
+The code inside `sketch.js` uses 2 shapes. Each shape draws 3 planes. In processing you could group shapes as I did in [this example](https://gist.github.com/vincentsijben/657bbc998cc373800b38a9ac8fe8a4b4).
+It also works with different textures.
 
 https://vincentsijben.github.io/p5-cube-vertex/
 
