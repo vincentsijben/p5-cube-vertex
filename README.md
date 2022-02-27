@@ -15,6 +15,8 @@ vertex(100,-100,0);
 vertex(100,0,0);
 endShape();
 ```
+<img width="292" alt="image" src="https://user-images.githubusercontent.com/36117924/155884431-e5c8dc33-aa49-4fdf-88fa-9d25d095b7a1.png">
+
 
 <img width="227" alt="image" src="https://user-images.githubusercontent.com/36117924/155884268-96578eb9-670f-45af-b507-5aa488f4398e.png">
 
