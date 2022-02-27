@@ -17,7 +17,7 @@ endShape();
 ```
 <img width="292" alt="image" src="https://user-images.githubusercontent.com/36117924/155884431-e5c8dc33-aa49-4fdf-88fa-9d25d095b7a1.png">
 
-You could draw 3 planes from the same starting anchor point, for example FRONT, RIGHT and TOP in this example:
+You could draw 3 faces starting at the same vertex point, for example FRONT, RIGHT and TOP in this example:
 
 <img width="215" alt="image" src="https://user-images.githubusercontent.com/36117924/155884672-df6e76ec-32fa-48cf-8470-d5cad8b53ebe.png">
 
