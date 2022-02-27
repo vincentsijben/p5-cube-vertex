@@ -1,6 +1,6 @@
 # p5-cube-vertex
 
-Creating a cube with vertices. When only using vertex and following each plane in a cube always ends up with a 'strange' triangle shape. 
+Creating a cube with vertices. When only using vertex, drawing each plane in a cube always ends up with a 'strange' triangle shape. 
 
 If the starting point for drawing the next plane or square isn't located at one of it's corners, you'll end up with the 'weird' diagonal fills, because p5 tries to connect the desired square to the begin point.
 ```
