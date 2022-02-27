@@ -5,15 +5,15 @@ Creating a cube with vertices. When only using vertex, drawing each plane in a c
 If the starting point for drawing the next plane or square isn't located at one of it's corners, you'll end up with the 'weird' diagonal fills, because p5 tries to connect the desired square to the begin point.
 ```
 fill(255,0,255);
-  beginShape();
-  vertex(0,0,0);
+beginShape();
+vertex(0,0,0);
 
-  vertex(100,0,0);
-  vertex(100,0,-100);
-  vertex(100,-100,-100);
-  vertex(100,-100,0);
-  vertex(100,0,0);
-  endShape();
+vertex(100,0,0);
+vertex(100,0,-100);
+vertex(100,-100,-100);
+vertex(100,-100,0);
+vertex(100,0,0);
+endShape();
 ```
 
 <img width="227" alt="image" src="https://user-images.githubusercontent.com/36117924/155884268-96578eb9-670f-45af-b507-5aa488f4398e.png">
